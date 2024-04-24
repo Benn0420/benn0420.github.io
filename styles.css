@@ -7,8 +7,10 @@ body {
 
 header {
     background-image: url('resources/code_background.jpg');
-    height: 400px; 
-    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -16,19 +18,17 @@ header {
 }
 
 h1 {
-    color: #333;
-    font-size: 60px;
-    justify-content: left;
-    margin-left: 20px;
+    color: #fff;
+    font-size: 90px;
+    margin: 0;
     margin-bottom: 10px;
 }
 
 h2 {
-    color: #555;
-    font-size: 60px;
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
     margin-bottom: 30px;
-    justify-content: left;
-    margin-left: 20px;
 }
 
 .description {
