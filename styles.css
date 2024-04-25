@@ -22,7 +22,7 @@ header {
 }
 
 .nav-left h1 {
-    color: #4B68B8;
+    color: #000;
     font-size: 30px;
     margin-left: 60px;
     font-family: 'Lazy-Dog', sans-serif;
@@ -59,7 +59,7 @@ header {
 }
 
 .intro h2 {
-    color: #4B68B8;
+    color: #ffaf64;
     font-size: 20px;
     margin: 0;
     margin-bottom: 20px;
@@ -73,44 +73,55 @@ header {
 }
 
 .intro {
-    max-width: 800px;
-    margin: 0 auto;
-    margin-top: 10px;
-    background-color: #fff;
+    margin-top: -80px;
 }
 
 .intro-content {
     display: grid;
     grid-template-columns: 1fr 300px;
     align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .intro-text {
     width: 100%;
 }
 
+.intro-baseline {
+    width: 100%;
+}
+
+.ufo-picture {
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.tree-line {
+    width: 100%;
+    display: block;
+    margin-top: -55px;
+}
+
 .hire-button {
-    background-color: #4B68B8;
+    background-color: #ffaf64;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 25px;
     border: none;
     border-radius: 10px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
     margin-top: 20px;
     transition: background-color 0.3s ease;
 }
 
 .hire-button:hover {
-    background-color: #38519E;
-}
-
-.profile-picture {
-    width: 400px;
-    border-radius: 50%;
+    background-color: #EFD4B7;
 }
