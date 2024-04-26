@@ -18,58 +18,41 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; 
+    padding: 2% 5%; 
 }
 
 .nav-left h1 {
     color: #000;
-    font-size: 30px;
-    margin-left: 60px;
+    font-size: calc(18px + 1vw);
+    margin-right: auto;
     font-family: 'Lazy-Dog', sans-serif;
+}
+
+.nav-middle {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .nav-middle a {
     color: #000;
-    font-size: small;
+    font-size: calc(5px + 1vw);
     font-weight: bold;
     text-decoration: none;
-    margin-right: 20px;
+    margin: 0 10px;
 }
+
 
 .nav-right a {
     color: #fff;
     text-decoration: none;
-    margin-right: 10px; 
+    margin-left: auto; 
 }
 
 .nav-right img {
-    width: 30px; 
+    width: 100%; 
+    max-width: 30px;
     height: auto;
-}
-
-.nav-right {
-    margin-right: 60px;
-}
-
-.intro h1 {
-    color: #000;
-    font-size: 54px;
-    margin: 0;
-    margin-bottom: 15px;
-}
-
-.intro h2 {
-    color: #ffaf64;
-    font-size: 20px;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-.intro h3 {
-    color: #000;
-    font-size: 16px;
-    margin: 0;
-    margin-bottom: 10px;
 }
 
 .intro {
@@ -92,8 +75,31 @@ header {
     width: 100%;
 }
 
+.intro h1 {
+    color: #000;
+    font-size: calc(11px + 4vw);
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+.intro h2 {
+    color: #ffaf64;
+    font-size: calc(10px + 1vw);
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+.intro h3 {
+    color: #000;
+    font-size: 16px;
+    font-size: calc(6px + 1vw);
+    margin: 0;
+    margin-bottom: 3%;
+}
+
 .ufo-picture {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 50%;
     margin-top: 60px;
     margin-left: 40px;
@@ -111,14 +117,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     height: 25px;
     border: none;
     border-radius: 10px;
     padding: 10px;
     font-size: 12px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 5%;
     transition: background-color 0.3s ease;
 }
 

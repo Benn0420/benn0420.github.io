@@ -1,0 +1,27 @@
+.title {
+    font-size: calc(10px + 5vw);
+    text-align: center;
+}
+
+.aboutme-content {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about {
+    display: grid;
+    grid-template-columns: 1fr 25%;
+    align-items: center;
+    border-radius: 5%;
+    background-color: rgb(235, 234, 234);
+}
+.about-text {
+    font-size: calc(8px + 1vw);
+    text-align: left;
+    line-height: 1.5;
+    margin: 3%;
+}
+.about-selfie {
+    width: 100%;
+    max-width: fit-content;
+}
