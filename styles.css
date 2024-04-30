@@ -18,7 +18,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; 
+    padding: 10px 20px;
+    width: 90%;
+    margin: auto;
 }
 
 .nav-left h1 {
@@ -55,16 +57,12 @@ header {
     height: auto;
 }
 
-.intro {
-    margin-top: -80px;
-}
-
 .intro-content {
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr 400px;
     align-items: center;
-    max-width: 800px;
-    margin-top: 50px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .intro-text {
@@ -77,23 +75,22 @@ header {
 
 .intro h1 {
     color: #000;
-    font-size: calc(11px + 4vw);
-    margin: 0;
+    font-size: calc(5px + 3vw);
+    margin: auto;
     margin-bottom: 3%;
 }
 
 .intro h2 {
     color: #ffaf64;
     font-size: calc(10px + 1vw);
-    margin: 0;
+    margin: auto;
     margin-bottom: 3%;
 }
 
 .intro h3 {
     color: #000;
-    font-size: 16px;
-    font-size: calc(6px + 1vw);
-    margin: 0;
+    font-size: 1vw;
+    margin: auto;
     margin-bottom: 3%;
 }
 
@@ -101,14 +98,10 @@ header {
     width: 100%;
     max-width: 400px;
     border-radius: 50%;
-    margin-top: 60px;
-    margin-left: 40px;
 }
 
 .tree-line {
     width: 100%;
-    display: block;
-    margin-top: -55px;
 }
 
 .hire-button {
@@ -123,9 +116,8 @@ header {
     border: none;
     border-radius: 10px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 0.8vw;
     cursor: pointer;
-    margin-top: 5%;
     transition: background-color 0.3s ease;
 }
 
