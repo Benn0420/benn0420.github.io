@@ -1,0 +1,7 @@
+exp1|University Credits - Computer Science|2 years
+exp2|Diploma - Strength & Sport Training|2 years
+exp3|Bachelors - Strength & Sport Training with Technology|1.5 years
+exp4|Intern - High Performance Center|9 months
+exp5|Owner - CoachConnorB Strength Training|3 years
+exp6|Diploma - Computer Programming|2 years
+exp7|Coach - De La Costa BJJ Academy|1.5 years

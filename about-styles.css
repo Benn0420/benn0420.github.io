@@ -51,16 +51,24 @@
     max-width: 95%;
 }
 
-.education-text ul {
-    columns: 2;
-    column-gap: 20px;
-}
-
-.education-text li {
-    margin-bottom: 5px;
-}
-
-
 .education-text p {
     margin-bottom: 10px;
+}
+
+.experience-chart {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.experience-bar {
+    line-height: 60px;
+    width: fit-content;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #13862e;
+    margin-bottom: 5px;
 }
