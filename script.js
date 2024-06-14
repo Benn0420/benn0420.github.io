@@ -10,10 +10,12 @@ $(document).ready(function () {
                 if (parts[0] === experienceId) {
                     var title = parts[1];
                     var duration = parts[2];
-                    var imageUrl = ""; // Set the image URL based on the selected experience
+                    var description = parts[3];
+                    var imageUrl = "resources/" + parts[4] + ".png";
 
                     // Update education text and image
-                    $(".education-text").html("<p><strong>" + title + "</strong> - " + duration + "</p>");
+                    $(".education-title").html("<p><strong>" + title + "</strong> - " + duration + "</p>");
+                    $(".education-text").html("<p>" + description + "</p>");
                     $(".education-image img").attr("src", imageUrl);
                     break;
                 }

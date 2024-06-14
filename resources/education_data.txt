@@ -1,7 +1,9 @@
-exp1|University Credits - Computer Science|2 years
-exp2|Diploma - Strength & Sport Training|2 years
-exp3|Bachelors - Strength & Sport Training with Technology|1.5 years
-exp4|Intern - High Performance Center|9 months
-exp5|Owner - CoachConnorB Strength Training|3 years
-exp6|Diploma - Computer Programming|2 years
-exp7|Coach - De La Costa BJJ Academy|1.5 years
+exp1|University Credits - Computer Science|2 years|I enrolled at the University of Ottawa at 18, majoring in Computer Science. I excelled in programming (specifically Java), Technical Report Writing, and hands-on labs. However, I faced challenges in maintaining focus and achieving high grades in calculus. This program was a profound learning experience that taught me valuable lessons in time management, the importance of effort, and dedication to my studies.|UofO
+
+exp2|Bachelors - Strength & Sport Training with Tech|3.5 years|Pursued a Bachelor's degree in Strength & Sport Training with a focus on technology at Limerick Institute of Technology. Explored the intersection of sports training and technology, gaining insights into advanced training methodologies and technological applications in sports.|LIT
+
+exp3|Owner - CoachConnorB Strength Training|4 years|Founded and developed my brand, CoachConnorB Strength Training (CCB), over a span of four years. Focused on providing personalized strength training programs and coaching services, building a reputation for effective training methods and client success stories.|CCB
+
+exp4|Diploma - Computer Programming|2 years|Completed a comprehensive two-year diploma program in Computer Programming at Algonquin College. Acquired practical skills in programming languages and software development, laying a strong foundation for a career in the tech industry.|CofA
+
+exp5|Coach - De La Costa BJJ Academy|1.5 years|Currently serving as a coach at De La Costa Brazilian Jiu-Jitsu (BJJ) Academy for one and a half years now. Guiding students in mastering BJJ techniques, fostering a supportive learning environment, and contributing to the growth of the academy's community.|DLC

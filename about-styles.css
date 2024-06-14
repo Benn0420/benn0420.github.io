@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(to bottom, #ffffff, #b8e994);
+}
+
 .title {
     font-size: calc(10px + 5vw);
     text-align: center;
@@ -8,6 +12,7 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .about {
     display: grid;
     grid-template-columns: 1fr 25%;
@@ -16,12 +21,14 @@
     background-color: rgb(235, 234, 234);
     margin-bottom: 3%;
 }
+
 .about-text {
     font-size: calc(8px + 1vw);
     text-align: left;
     line-height: 1.5;
     margin: 3%;
 }
+
 .selfie {
     max-width: 100%;
     max-height: 100%;
@@ -30,13 +37,12 @@
 .education {
     display: grid;
     grid-template-columns: 30% 1fr;
-    justify-items: center;
-    align-items: center;
     width: 100%;
     border-radius: 5%;
     margin-bottom: 3%;
     border: 4px solid #26b347;
     border-style: double;
+    background-color: rgb(235, 234, 234);
 }
 
 .grad {
@@ -46,13 +52,29 @@
     padding: 10px;
 }
 
-.education-text {
-    font-size: calc(5px + 0.5vw);
+.education-content {
     max-width: 95%;
+    max-height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.education-text p {
-    margin-bottom: 10px;
+.education-image {
+    max-width: 80%;
+    align-self: center;
+}
+
+.education-title {
+    font-size: calc(8px + 1vw);
+}
+
+.education-text {
+    font-size: calc(8px + 0.625vw);
+    text-align: center;
+    padding-left: 20px;
 }
 
 .experience-chart {

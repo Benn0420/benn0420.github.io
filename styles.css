@@ -5,7 +5,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -123,4 +122,59 @@ header {
 
 .hire-button:hover {
     background-color: #EFD4B7;
+}
+
+.area-of-interest {
+    background-image: url('resources/forest_scape.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.interests {
+    max-width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+}
+
+.interested {
+    position: relative;
+    width: 70%;
+    padding: 4%;
+    color: #fff;
+    text-align:center;
+    border-radius: 15px;
+    margin: 50px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.interested h1 {
+    font-size: calc(5px + 2vw);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: #fff;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);;
+}
+
+#interest1 {
+    background-image: url('resources/city_scape1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#interest2 {
+    background-image: url('resources/city_scape2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#interest3 {
+    background-image: url('resources/city_scape3.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
