@@ -1,96 +1,107 @@
-body {
-    background: linear-gradient(to bottom, #ffffff, #b8e994);
+/* Global Styles */
+@font-face {
+    font-family: 'Lazy-Dog';
+    src: url('fonts/lazy_dog.ttf') format('truetype');
 }
 
-.title {
-    font-size: calc(10px + 5vw);
-    text-align: center;
+@font-face {
+    font-family: 'RockBilly';
+    src: url('fonts/rockbilly.ttf') format('truetype');
 }
 
-.aboutme-content {
-    display: block;
-    max-width: 1200px;
-    margin: 0 auto;
+@font-face {
+    font-family: 'BackStreet';
+    src: url('fonts/backstreet.ttf') format('truetype');
 }
 
-.about {
-    display: grid;
-    grid-template-columns: 1fr 25%;
-    align-items: center;
-    border-radius: 5%;
-    background-color: rgb(235, 234, 234);
-    margin-bottom: 3%;
+html {
+    scroll-behavior: smooth;
 }
 
-.about-text {
-    font-size: calc(8px + 1vw);
-    text-align: left;
-    line-height: 1.5;
-    margin: 3%;
-}
-
-.selfie {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.education {
-    display: grid;
-    grid-template-columns: 30% 1fr;
-    width: 100%;
-    border-radius: 5%;
-    margin-bottom: 3%;
-    border: 4px solid #26b347;
-    border-style: double;
-    background-color: rgb(235, 234, 234);
-}
-
-.grad {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5%;
-    padding: 10px;
-}
-
-.education-content {
-    max-width: 95%;
-    max-height: 100%;
-    padding: 10px;
+/* Navigation Bar at Top */
+.navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    background-color: #ffffff00; /* Background color for the navbar */
+    position: fixed; /* Fix it to the top */
+    top: 0;
+    width: 100%; 
+    z-index: 1000; /* Stays above other content */
+    font-family: 'Lazy-Dog', sans-serif;
 }
 
-.education-image {
-    max-width: 80%;
-    align-self: center;
-}
-
-.education-title {
-    font-size: calc(8px + 1vw);
-}
-
-.education-text {
-    font-size: calc(8px + 0.625vw);
-    text-align: center;
+.nav-left {
+    padding: 20px;
     padding-left: 20px;
 }
 
-.experience-chart {
-    width: 100%;
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 20px;
+.nav-left h1 {
+    color: #fff;
+    font-size: calc(18px + 1vw);
 }
 
-.experience-bar {
-    line-height: 60px;
-    width: fit-content;
-    padding: 2%;
-    color: white;
+.nav-middle a {
+    color: #fff;
+    font-size: calc(5px + 1vw);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-middle a:hover {
+    text-decoration: underline;
+}
+
+.nav-right {
+    padding: 20px;
+    padding-right: 40px;
+}
+
+.nav-right img {
+    max-width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+header {
+    position: relative;
+    height: 100vh;
+    background: url('resources/forestry_mist.jpg') center/cover fixed no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    border-radius: 15px;
-    background-color: #13862e;
-    margin-bottom: 5px;
+    color: #ffffff;
+    font-family: 'BackStreet', sans-serif;
+}
+
+header .content {
+    z-index: 2;
+}
+
+header .content h1 {
+    font-size: calc(35px + 3vw);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+header .content p {
+    font-size: calc(16px + 1vw);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+}
+
+/* Intro Section */
+.intro h2 {
+    font-size: 40px;
+    font-family: 'RockBilly', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(5, 5, 5);
 }
