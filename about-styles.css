@@ -18,16 +18,27 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background: url('resources/forestry_mist.jpg') center/cover fixed no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 /* Navigation Bar at Top */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff00; /* Background color for the navbar */
-    position: fixed; /* Fix it to the top */
+    position: fixed; 
+    background: url('resources/forestry_mist.jpg');
     top: 0;
-    width: 100%; 
-    z-index: 1000; /* Stays above other content */
+    width: 100vw;
+    height: 10%;
+    z-index: 1000; 
     font-family: 'Lazy-Dog', sans-serif;
 }
 
@@ -64,44 +75,141 @@ html {
     margin-left: 10px;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
 /* Header Section */
 header {
     position: relative;
-    height: 100vh;
-    background: url('resources/forestry_mist.jpg') center/cover fixed no-repeat;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #ffffff;
     font-family: 'BackStreet', sans-serif;
+    margin-top: 10%;
+    width: 100%;
 }
 
-header .content {
+.header-content {
     z-index: 2;
 }
 
-header .content h1 {
+.header-content h1 {
     font-size: calc(35px + 3vw);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     margin: 0;
 }
 
-header .content p {
+.header-content p {
     font-size: calc(16px + 1vw);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     margin-top: 10px;
 }
 
-/* Intro Section */
-.intro h2 {
+/* Sections Container */
+.sections-container {
+    position: absolute;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 90%;
+    width: 75%;
+}
+
+.sections-container a {
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#ufo-photo {
+    width: 200px;
+    margin-top: 10%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#projects-text {
+    width: 200px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#silhouette-photo {
+    height: 100px;
+    margin-top: 127%;
+    margin-left: 38%;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#silhouette-text {
+    height: 100px;
+    margin-top: 105%;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#ufo-abduction-photo {
+    width: 250px;
+    margin-top: 90%;
+    margin-left: 50%;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#ufo-abduction-text {
+    width: 200px;
+    margin-top: 140%;
+    margin-left: 57%;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.projects {
+    position: relative;
+    display: flex;
+    margin-top: 50%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('resources/city4.jpg') center/contain no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/*
+.intro-container {
+    position: absolute;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    top: 100%; 
+    width: 100%; 
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+.intro-content h2 {
     font-size: 40px;
     font-family: 'RockBilly', sans-serif;
     color: #ffffff;
+    background-color: black;
     text-shadow: 2px 2px 4px rgb(5, 5, 5);
 }
+
+#intro-title {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#intro-photo {
+    width: 200px;
+}
+*/
