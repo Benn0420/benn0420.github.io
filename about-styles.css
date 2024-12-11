@@ -168,7 +168,7 @@ header {
     grid-row: 1;
 }
 
-.projects {
+.hoverable-container {
     position: relative;
     display: flex;
     margin-top: 50%;
@@ -176,10 +176,32 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url('resources/city4.jpg') center/contain no-repeat;
+    background: url('resources/ottawa-cityscape-bw.jpg') center/contain no-repeat;
     height: 100vh;
     overflow-x: hidden;
 }
+
+  /* Hoverable elements */
+  .element {
+    position: absolute;
+    cursor: pointer;
+  }
+
+  /* Tooltip styling */
+  .tooltip {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  /* Show tooltip on hover */
+  .element:hover .tooltip {
+    display: block;
+  }
 
 /*
 .intro-container {
