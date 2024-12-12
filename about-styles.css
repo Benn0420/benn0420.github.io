@@ -85,7 +85,7 @@ header {
     text-align: center;
     color: #ffffff;
     font-family: 'BackStreet', sans-serif;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 100%;
 }
 
@@ -168,7 +168,9 @@ header {
     grid-row: 1;
 }
 
-.hoverable-container {
+/* Cityscape Container */
+
+.cityscape-container {
     position: relative;
     display: flex;
     margin-top: 50%;
@@ -178,17 +180,14 @@ header {
     text-align: center;
     background: url('resources/ottawa-cityscape-bw.jpg') center/contain no-repeat;
     height: 100vh;
-    overflow-x: hidden;
 }
 
-  /* Hoverable elements */
-  .element {
+.element {
     position: absolute;
     cursor: pointer;
-  }
+}
 
-  /* Tooltip styling */
-  .tooltip {
+.tooltip {
     display: none;
     position: absolute;
     background: rgba(0, 0, 0, 0.8);
@@ -196,42 +195,56 @@ header {
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
-  }
+}
 
-  /* Show tooltip on hover */
-  .element:hover .tooltip {
+.tooltip.visible {
     display: block;
-  }
+}
 
-/*
-.intro-container {
-    position: absolute;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    top: 100%; 
-    width: 100%; 
-    padding: 50px 20px;
-    color: #fff;
+/* FAQ Section */
+.faq-section {
+    padding: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: url('resources/black-night-pattern.jpg') center/contain no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: 'Arial', sans-serif;
+}
+
+.faq-section h2 {
     text-align: center;
-    z-index: 1;
+    margin-bottom: 5%;
+    font-size: 48px;
+    color: #fff;
 }
 
-.intro-content h2 {
-    font-size: 40px;
-    font-family: 'RockBilly', sans-serif;
-    color: #ffffff;
-    background-color: black;
-    text-shadow: 2px 2px 4px rgb(5, 5, 5);
+.faq {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
-#intro-title {
-    grid-column: 1;
-    grid-row: 1;
+.faq-question {
+    padding: 15px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-#intro-photo {
-    width: 200px;
+.faq-question:hover {
+    background-color: #e0e0e0;
 }
-*/
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: #fff;
+    color: #555;
+}
